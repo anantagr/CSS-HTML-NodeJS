@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    title Contact us
+    link(rel="stylesheet" type="text/css" href="css/style.css")
+  body
+    header#main-header
+      .container
+        h1 Travel Experts
+    nav#navbar
+      .container
+        ul
+          li
+            a(href="index.html") Home
+          li
+            a(href="404.html") Packages
+          li
+            a(href="404.html") Register
+          li
+            a(href="contactus.html") Contact us
+          li
+            a(href="about.html") About
+    .container
+      section#main2
+        h1 Contact us
+        form(method="post" action="/post_form")
+          label(for="fname") First name:
+          br
+          input#fname(type="text" name="fname" value="")
+          br
+          br
+          label(for="lname") Last name:
+          br
+          input#lname(type="text" name="lname" value="")
+          br
+          br
+          label(for="email") Email Address:
+          br
+          input#email(type="email" name="email" value="")
+          br
+          br
+          label(for="contactnumber") Contact Number:
+          br
+          input#contactnumber(type="text" name="contactnumber" value="")
+          br
+          br
+          input(type="submit" value="Submit")
+    footer#main-footer
+      p Copyright © 2017 Travel Expert
